@@ -21,6 +21,10 @@ Week02SourceCode:
   NumericInput.java
   Student.java
 
+Trio LabA: 
+  Trio.java
+  TrioTester.java
+
 
 Lab A: Generics: 
 
