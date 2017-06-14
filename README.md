@@ -1,7 +1,7 @@
 # CS111C-W02-Generics
 Generics 
 
-Week02SourceCode: 
+Week02SourceCode.zip: 
   Box.java
   BoxR.java
   BoxTester.java
@@ -9,7 +9,7 @@ Week02SourceCode:
   NumericInput.java
   Student.java
 
-Trio LabA: 
+Trio LabA.zip: 
   Trio.java
   TrioTester.java
 
