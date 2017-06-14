@@ -7,7 +7,7 @@ Week02SourceCode.zip:
   BoxTester.java
   NameInput.java
   NumericInput.java
-  Student.java
+  Student.java 
 
 Trio LabA.zip: 
   Trio.java
