@@ -62,13 +62,13 @@ Your class must compile (10 points) and have the following:
 
 • (15 points) a method called sameItems that returns true if the three items are the same as each other, meaning they are equal to each other (not aliases, but equal- logically equivalent), and false otherwise
 
-• For example, invoking sameItems on the Trio (3, 3, 3) will return true. Invoking sameItems on the Trio (3, 4, 4) will return false.
+  • For example, invoking sameItems on the Trio (3, 3, 3) will return true. Invoking sameItems on the Trio (3, 4, 4) will return false.
 
 • (20 points) an equals method that overrides the equals method of the Object class.
 
-• The method returns true if the current Trio holds the same three items in any order as the Trio sent as a parameter and false otherwise.
+  • The method returns true if the current Trio holds the same three items in any order as the Trio sent as a parameter and false otherwise.
 
-• Note that the equals method should not alter either the parameter or the current Trio object.
+  • Note that the equals method should not alter either the parameter or the current Trio object.
 
 Extra Credit (20 points):
 
@@ -76,7 +76,7 @@ Extra Credit (20 points):
 
 • order Trio objects by the smallest item in each Trio
 
-• For example, (3, 1, 4) is less than (2, 6, 4) because the smallest item in the first Trio (1) is less than the smallest item in the second Trio (2)
+  • For example, (3, 1, 4) is less than (2, 6, 4) because the smallest item in the first Trio (1) is less than the smallest item in the second Trio (2)
 
 • Hint: make a private helper method to find the smallest item in any Trio.
 
@@ -86,11 +86,11 @@ Extra Credit (20 points):
 
 • To compile, change the class header and method header to the following.
 
-• Essentially, these changes mean that you are requiring the data type T to implement Comparable as well.
+  • Essentially, these changes mean that you are requiring the data type T to implement Comparable as well.
 
-• That matters because it means you can invoke compareTo on the items in the Trio!
+  • That matters because it means you can invoke compareTo on the items in the Trio!
 
-• The "?" is called a wildcard and is related to bounds in generics. This is not information you are responsible for in our course. For now, you can just use it.
+  • The "?" is called a wildcard and is related to bounds in generics. This is not information you are responsible for in our course. For now, you can just use it.
    
    public class Trio<T extends Comparable<? super T>> implements Comparable<Trio <T>>
 
